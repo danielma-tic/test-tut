@@ -1,6 +1,15 @@
 <style>
-#customgpt_chat {
-    height: calc(100% - 100px); 
+.chat-wrapper {
+    position: relative;
+    height: 400px; 
     overflow: hidden;
+}
+
+#customgpt_chat {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 500px;
 }
 </style>
